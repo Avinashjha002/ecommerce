@@ -1,0 +1,97 @@
+.payment{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.payment_container > h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    background-color: #000000;
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    color: white;
+}
+
+.payment_container > h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.payment_section{
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid rgb(111, 111, 111);
+    /* width: 100%; */
+}
+
+.payment_section2{
+    /* margin-bottom: 200px; */
+    display: flex;
+    padding: 20px;
+    margin: 20px 20px 30px 20px;
+    border-bottom: 1px solid rgb(111, 111, 111);
+    background-color: rgb(203, 192, 192);
+    color: black;
+    /* width: 100%; */
+}
+
+.payment_title{
+    flex: 0.2;
+}
+
+.payment_address, .payment_items, .payment_details{
+    flex: 0.8;
+}
+
+.cardElement{
+    color: white;
+}
+
+@media only screen and (max-width: 485px) {
+    .payment_section{
+        width: 108%;
+    }
+    .payment_section2{
+        width: 108%;
+    }
+    .payment_container > h1{
+        width: 125%;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .payment_section{
+        width: 125%;
+    }
+    .payment_section2{
+        width: 125%;
+    }
+    .payment_container > h1{
+        width: 150%;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .payment_section{
+        width: 150%;
+    }
+    .payment_section2{
+        width: 150%;
+    }
+    .payment_container > h1{
+        width: 175%;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .payment_section{
+        width: 170%;
+    }
+    .payment_section2{
+        width: 170%;
+    }
+    .payment_container > h1{
+        width: 200%;
+    }
+}
